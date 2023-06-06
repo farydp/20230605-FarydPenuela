@@ -1,0 +1,69 @@
+git init
+  115  git remote add origin https://github.com/farydp/20230605-FarydPenuela.git
+  116  git status
+  117  ls
+  118  cd ..
+  119  ls
+  120  rm -r Parcial1/
+  121  rm -r Parcial1/
+  122  cd ..
+  123  clear
+  124  ls
+  125  cd Int_informatica/
+  126  ls
+  127  cd 20230605-FarydPenuela/
+  128  ls
+  129  clear
+  130  ls
+  131  git init
+  132  git remote add origin https://github.com/farydp/20230605-FarydPenuela.git
+  133  git remote -v
+  134  clear
+  135  touch comandos.txt main.js index.html
+  136  ls
+  137  git status
+  138  git add .
+  139  git commit -m "commit de Faryd Peñuela"
+  140  git status
+  141  git pull origin main
+  142  git push origin main
+  143  git checkout -b feature01
+  144  mkdir Terminal Hardware
+  145  ls
+  146  touch Hardware/resumen.txt Terminal/resumen.txt
+  147  ls -R
+  148  git status
+  149  git add .
+  150  git commit -m "commit 02 de Faryd Peñuela"
+  151  git push origin feature01
+  152  git checkout -b feature02
+  153  git checkout main
+  154  git checkout feature01
+  155  git checkout feature02
+  156  ls
+  157  cd Terminal/
+  158  git add .
+  159  git commit -m "commit 03 de Faryd Peñuela"
+  160  git push origin feature02
+  161  git checkout main
+  162  git status
+  163  git status
+  164  git add .
+  165  git commit -m "commit 04 de Faryd Peñuela"
+  166  cd ..
+  167  cd Hardware/
+  168  git add .
+  169  git commit -m "commit 04 de Faryd Peñuela"
+  170  git push origin feature02
+  171  git checkout main 
+  172  ls
+  173  cd ..
+  174  cd ..
+  175  ls
+  176  cd 20230605-FarydPenuela/
+  177  ls
+  178  mv comandos.txt comandosUtilizados.txt
+  179  git status 
+  180  git add .
+  181  git commit -m "commit 05 de Faryd Peñuela"
+  182  history > comandosUtilizados.txt
