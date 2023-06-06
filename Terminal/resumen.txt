@@ -1,0 +1,6 @@
+Git init = Crea el repositorio
+Git config user.name "nombreusuario" = permite agregar nuestro nombre o identificador dentro de nuestro repositorio.
+Git remote -v = Nos permite verificar que todo quedó completamente conectado.
+ git
+Histoy : Me muestra todo el historial de los comandos usados en nuestra terminal
+MV SIRVE PARA MOVER Y/O RENONMBRAR UN ARCHIVO.
